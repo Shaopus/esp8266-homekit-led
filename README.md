@@ -3,6 +3,7 @@
 <details>
 <summary><strong>中文版本</strong></summary>
 <div>
+
 [esp-homekit](https://github.com/maximkulkin/esp-homekit) 是 `Apple HomeKit` 配件服务器库，可以在 `esp8266` 和 `esp32` 上使用，以下是 [esp-homekit](https://github.com/maximkulkin/esp-homekit)  是基于 [ESP8266_RTOS_SDK](https://github.com/espressif/ESP8266_RTOS_SDK) 在 `esp8266` 上的移植步骤。
 
 ## 组件
