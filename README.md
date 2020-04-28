@@ -3,20 +3,15 @@
 <details>
 <summary><strong>中文版本</strong></summary>
 <div>
-
-
-
 [esp-homekit](https://github.com/maximkulkin/esp-homekit) 是 `Apple HomeKit` 配件服务器库，可以在 `esp8266` 和 `esp32` 上使用，以下是 [esp-homekit](https://github.com/maximkulkin/esp-homekit)  是基于 [ESP8266_RTOS_SDK](https://github.com/espressif/ESP8266_RTOS_SDK) 在 `esp8266` 上的移植步骤。
 
+## 组件
 
+- [esp-homekit](https://github.com/maximkulkin/esp-homekit)
+- [esp-wolfssl](https://github.com/maximkulkin/esp-wolfssl)
+- [esp-http-parser](https://github.com/maximkulkin/esp-http-parser)
 
-- ## 组件
-
-  - [esp-homekit](https://github.com/maximkulkin/esp-homekit)
-  - [esp-wolfssl](https://github.com/maximkulkin/esp-wolfssl)
-  - [esp-http-parser](https://github.com/maximkulkin/esp-http-parser)
-
-  ## 步骤
+## 步骤
 
 - 下载这些库到 `compnents`，并重命名文件夹
 
@@ -46,8 +41,7 @@
   COMPONENT_DEPENDS := homekit
   ```
 
-
-
+  
 
 - 把项目的 `wifi.h.sample` 移到 `main` 文件夹下，然后修改为 `wifi.h`，最后写入自己的 `WiFi` 的 `SSID` 和 密码
 
@@ -139,17 +133,17 @@ Although already forbidden by the sources and subsequent licensing, it is not al
 </div>
 </details>
 
+
+
 [esp-homekit](https://github.com/maximkulkin/esp-homekit) is `Apple HomeKit` accessory server library, which can be used on esp8266 and esp32, the following is [esp-homekit](https://github.com/maximkulkin/esp-homekit) based on  [ESP8266_RTOS_SDK](https://github.com/espressif/ESP8266_RTOS_SDK) migration steps on esp8266.
 
+## Components
 
+- [esp-homekit](https://github.com/maximkulkin/esp-homekit)
+- [esp-wolfssl](https://github.com/maximkulkin/esp-wolfssl)
+- [esp-http-parser](https://github.com/maximkulkin/esp-http-parser)
 
-- ## Components
-
-  - [esp-homekit](https://github.com/maximkulkin/esp-homekit)
-  - [esp-wolfssl](https://github.com/maximkulkin/esp-wolfssl)
-  - [esp-http-parser](https://github.com/maximkulkin/esp-http-parser)
-
-  ## Steps
+## Steps
 
 - download these libraries to components and rename folder
 
@@ -250,8 +244,8 @@ Although already forbidden by the sources and subsequent licensing, it is not al
   CONFIG_LWIP_IPV6=y
   ```
 
+## Statement:
 
-### Statement:
 This project refers to the makefile and project directory from [esp32-homekit-led](https://github.com/Shaopus/esp32-homekit-led)
 
 Although already forbidden by the sources and subsequent licensing, it is not allowed to use or distribute this software for a commercial purpose.
